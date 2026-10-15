@@ -81,6 +81,7 @@ nav .btn{justify-self:end}
 }
 @media(min-width:701px){.hv-mask h1 .l2{white-space:nowrap}}
 .note{font-size:13px;color:var(--muted);margin-top:12px}
+.n-mob{display:none}
 
 /* bibs */
 .bibs-sec{background:var(--bg-2)}
@@ -194,6 +195,7 @@ footer a{color:#fff}
 @media(max-width:900px){
 .phone-box{position:sticky;top:64px;z-index:5;width:100%;height:392px;background:var(--bg-2)}
 #funkcii{padding-bottom:0}
+.n-desk{display:none}.n-mob{display:block}
 .phone-box .phone{position:absolute;left:50%;top:12px;width:330px;margin-left:-82px;transform:scale(.5);transform-origin:0 0}
 }
 .app{background:#0a0a0a;position:absolute;left:0;top:0;width:390px;height:844px;transform-origin:0 0;transform:scale(var(--k,.81));overflow:hidden;pointer-events:none;opacity:0;transition:opacity .4s;font-family:Inter,"Manrope",system-ui,sans-serif;color:#fff;line-height:1.5}
@@ -424,9 +426,10 @@ footer a{color:#fff}
         <details name="f"><summary>Заявка</summary><p>Открой маячок и проведи пальцем по кнопке, автор одобряет заявку вручную, поэтому на старте ты знаешь, с кем бежишь</p></details>
         <details name="f"><summary>Клубы</summary><p>Роли участников, события с маршрутом и рейтинг по общей дистанции внутри клуба</p></details>
         <details name="f"><summary>Strava</summary><p>Километры приходят из Strava автоматически, вносить ничего руками не нужно</p></details>
-        <p class="note">Маячки и участники на экранах карты вымышленные, это пример</p>
+        <p class="note n-desk">Маячки и участники на экранах карты вымышленные, это пример</p>
       </div>
     </div>
+    <p class="note n-mob">Маячки и участники на экранах карты вымышленные, это пример</p>
     </div>
   </div>
 </section>

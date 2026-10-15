@@ -193,6 +193,7 @@ footer a{color:#fff}
 }
 @media(max-width:900px){
 .phone-box{position:sticky;top:64px;z-index:5;width:100%;height:392px;background:var(--bg-2);margin-bottom:6px}
+.feat-grid::after{content:"";display:block;height:calc(398px - clamp(30px,6vw,90px))}
 .phone-box .phone{position:absolute;left:50%;top:12px;width:330px;margin-left:-82px;transform:scale(.5);transform-origin:0 0}
 }
 .app{background:#0a0a0a;position:absolute;left:0;top:0;width:390px;height:844px;transform-origin:0 0;transform:scale(var(--k,.81));overflow:hidden;pointer-events:none;opacity:0;transition:opacity .4s;font-family:Inter,"Manrope",system-ui,sans-serif;color:#fff;line-height:1.5}
